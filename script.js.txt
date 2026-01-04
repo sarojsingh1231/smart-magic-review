@@ -1,0 +1,13 @@
+function rate(star) {
+
+  // ?? 1–3 Star ? WhatsApp Feedback
+  if (star <= 3) {
+    window.location.href =
+      "https://wa.me/917980153708?text=Hello,%20I%20want%20to%20share%20my%20feedback";
+
+  // ?? 4–5 Star ? Google Review
+  } else {
+    window.location.href =
+      https://search.google.com/local/writereview?placeid=ChIJK6Wqfb55AjoR9mvrW_eAmTQ;
+  }
+}

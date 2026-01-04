@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Magic Review</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>? TECH SKILL ACADEMY</h1>
+  <p>How was your experience with us?</p>
+
+  <div class="stars">
+    <span onclick="rate(1)">?</span>
+    <span onclick="rate(2)">?</span>
+    <span onclick="rate(3)">?</span>
+    <span onclick="rate(4)">?</span>
+    <span onclick="rate(5)">?</span>
+  </div>
+
+  <p class="note">Tap stars to give rating</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
